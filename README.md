@@ -23,4 +23,12 @@ and to custom the deployement you have to run the following command
 ```bash
 helm install ngf oci://ghcr.io/nginx/charts/nginx-gateway-fabric --create-namespace -n nginx-gateway --set nginx.service.type=NodePort 
 ```
+
+## how gateway api works :
+
+
+
+## architecture of nginx fabric
+![Architecture NGINX Fabric](./images/nginx-fabric.png)
+
 ## How the gateway api differs from ingress controller:
